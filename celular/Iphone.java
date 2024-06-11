@@ -18,11 +18,11 @@ public class Iphone {
 			navegar.adicionarNovaAba();
 			navegar.exibirPagina("Phillipe");
 			navegar.atualizarPagina();
+			
 		System.out.println("///////////////");	
 		
 		AparelhoTelefone aparelho = new AparelhoTelefone();
 			aparelho.ligar("(61) 981474028");
 			aparelho.atender();
-			aparelho.iniciarCorreioVoz();
 	}
 }
